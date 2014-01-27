@@ -71,12 +71,11 @@ button {
 }
 
 .logo {
-	width: 50%;
+	max-width: 21%;
 	margin: 0 auto;
 }
 
 .search img {
-	max-height: 14%;
 	margin-bottom: 3%;
 	max-width: 100%;
 }
@@ -87,9 +86,9 @@ button {
 	border: 1px solid #D8D8D8;
 	padding: 5px;
 	font-size: 11pt;
-	background: url('images/microphone.png') no-repeat;
+/*	background: url('images/microphone.png') no-repeat;
 	background-position: right;
-	background-size: 4.25%;
+	background-size: 4.25%;*/
 }
 
 .search-bar {
@@ -165,7 +164,7 @@ footer nav a:hover {
 		display:none;
 	}
 
-	.top-toolbar nav a:first-child {
-
+	.logo {
+		max-width: 40%;
 	}
 }
